@@ -1,13 +1,22 @@
 <html>
 <head>
-<title>카우보이 게임</title>
+      <title>카우보이 게임</title>
 </head>
-<body>
-<div id="start-screen">
-<h1>카우보이 게임</h1>
+ <body>
+   <div id="start-screen">
+     <h1>카우보이 게임</h1>
 
-<button id="language-btn">언어 선택</button>
-<button id=""start-btn">게임 시작</button>
-</div>
-</body>
+     <button id="language-btn">언어 선택</button>
+     <button id=""start-btn">게임 시작</button>
+   </div>
+ </body>
 </html>
+<css>
+#start-screen {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+</css>
